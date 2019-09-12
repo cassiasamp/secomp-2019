@@ -99,7 +99,7 @@ resultado_regressao = regressao.fit(X_treino, y_treino).score(X_teste, y_teste)
 print('LogisticRegression score: %f' % resultado_regressao)
 
 """## Usando KNN"""
-
+"""#"""
 from sklearn import neighbors
 
 knn = neighbors.KNeighborsClassifier()
